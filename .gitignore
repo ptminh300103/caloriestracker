@@ -1,0 +1,36 @@
+
+# ----- environment variables and secrets -----
+.env
+.env.*
+!.env.example
+
+# ----- virtual environments -----
+.venv/
+venv/
+
+# ----- python cache -----
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ----- local databases and backups -----
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.bak
+backups/
+
+# ----- macos files -----
+.DS_Store
